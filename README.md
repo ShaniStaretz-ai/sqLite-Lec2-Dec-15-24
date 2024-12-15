@@ -36,4 +36,7 @@ CREATE-page 32,insert - page 36
 * DELETE  (page 60) = delete rows from  table:
   * DELETE FROM <table_name>  WHERE [condition];
   * to clean the table, better to DROP table and CREATE table, instead because the running index, that will continue and instead of starting over
+* query in python- start:
+  * need import sqlite3: 
+    * if not install: use pycharm (setting->interpreter) use the command: pip install/remove <library package> from terminal
 ## extra subjects:
